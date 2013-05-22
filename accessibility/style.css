@@ -1,0 +1,23 @@
+.listing {
+  width: 460px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+.save {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(sprites.png) 0 0;
+  text-indent: -9999px;
+}
+.save:hover {
+  background-position: 0 -25px;
+}
+.save:active {
+  background-position: 0 -50px;
+}
+.saved {
+  background-position: 0 -25px;
+}
